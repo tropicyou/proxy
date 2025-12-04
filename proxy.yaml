@@ -1,1 +1,14 @@
-
+proxies:
+- name: TROJANVPNSERVER9
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: 3740e736-798e-4575-b1ef-67412e83b865
+  sni: novantunnel.tech
+  network: ws
+  ws-opts: 
+   path: /Novan-SG1
+   Headers: 
+      Host: novantunnel.tech
+  udp: true
+  skip-cert-verify: true 
